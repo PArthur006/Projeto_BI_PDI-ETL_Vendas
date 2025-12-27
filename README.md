@@ -1,7 +1,5 @@
 # PROJETO BI com Pentaho PDI - ETL de Vendas com Enriquecimento via API
 
-Autores: João Pedro Gonçalves e Pedro Arthur Rodrigues
-
 ## DESCRIÇÃO
 
 Este projeto implementa um pipeline de dados completo (End-to-End) utilizando Pentaho Data Integration (PDI) e PostgreSQL.
@@ -24,7 +22,8 @@ A entrega está organizada da seguinte forma:
 /03_ETL
    |-- input/                     (Contém o dataset data.csv)
    |-- transformations/           (Arquivos .ktr individuais)
-   |-- job_carga_completa.kjb     (Job orquestrador principal)
+   |-- job_etl_vendas.kjb         (Job orquestrador principal)
+   |-- job_...                    (Demais Jobs do projeto)
 ```
 
 ## PRÉ-REQUISITOS
@@ -72,3 +71,4 @@ Implementado na Dimensão Produto. Alterações no cadastro do produto geram uma
 ### PORTABILIDADE
 
 Todos os caminhos de arquivos utilizam variáveis relativas para funcionar em qualquer diretório ou sistema operacional sem necessidade de reconfiguração.
+

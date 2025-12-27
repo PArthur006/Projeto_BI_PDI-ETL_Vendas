@@ -1,4 +1,4 @@
-# PROJETO BI com Pentaho DPI - ETL de Vendas com Enriquecimento via API
+# PROJETO BI com Pentaho PDI - ETL de Vendas com Enriquecimento via API
 
 Autores: João Pedro Gonçalves e Pedro Arthur Rodrigues
 
@@ -70,4 +70,5 @@ Utilização de algoritmo de Hashing em JavaScript para criar vínculos determin
 Implementado na Dimensão Produto. Alterações no cadastro do produto geram uma nova versão, preservando o histórico de preços e descrições para vendas passadas.
 
 ### PORTABILIDADE
+
 Todos os caminhos de arquivos utilizam variáveis relativas para funcionar em qualquer diretório ou sistema operacional sem necessidade de reconfiguração.
